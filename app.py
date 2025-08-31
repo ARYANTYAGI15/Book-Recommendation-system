@@ -74,9 +74,9 @@ if st.sidebar.button("Recommend Me"):
 
 
 # import data
-books = pd.read_csv(r"C:\Users\Dell\OneDrive\Desktop\Cuvette Assignments\Book Recemondation System\Books.csv")
-users = pd.read_csv(r"C:\Users\Dell\OneDrive\Desktop\Cuvette Assignments\Book Recemondation System\Users.csv")
-ratings = pd.read_csv(r"C:\Users\Dell\OneDrive\Desktop\Cuvette Assignments\Book Recemondation System\Ratings.csv")
+books = pd.read_csv("Books.csv")
+users = pd.read_csv("Users.csv")
+ratings = pd.read_csv("Ratings.csv")
 
 st.sidebar.title("Data Used")
 
